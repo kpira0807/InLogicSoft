@@ -1,0 +1,13 @@
+strings:
+  inputs: inLogicSoftTestTask/Resources
+  outputs:
+    - templateName: structured-swift4
+      output: inLogicSoftTestTask/Resources/SwiftGen/strings.swift
+xcassets:
+  inputs:
+    - inLogicSoftTestTask/Resources/Assets.xcassets
+  outputs:
+    - templateName: swift4
+      output: inLogicSoftTestTask/Resources/SwiftGen/assets.swift
+
+
